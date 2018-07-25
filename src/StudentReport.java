@@ -40,7 +40,7 @@ public class StudentReport {
     private static final Font subUnderlinedBold = new Font(Font.FontFamily.TIMES_ROMAN, 12,    Font.BOLD|Font.UNDERLINE);
 
     public StudentReport(String FILE, String roll, String term, String name, int aClass, int merit, int students, String[] subjects, int[] full_marks, double[] ct1_marks, double[] ct2_marks, double[] ct3_marks, double[] final_marks, double[] lab_marks, double[] total_marks, double[] highest_marks, double[] gpas, double total, double gpa, String letter_grade) {
-        this.FILE = FILE;
+        this.FILE = FILE+roll+"_"+term+"_report.pdf";
         this.roll = roll;
         this.term = term;
         this.name = name;
@@ -95,7 +95,7 @@ public class StudentReport {
         String exam = term+", "+year;
         Image img = null;
         try {
-            img = Image.getInstance("logo.jpg");
+            img = Image.getInstance("resources/logo.jpg");
         } catch (IOException e) {
             System.out.println("Image not found.");
         }

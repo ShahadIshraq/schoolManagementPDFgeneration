@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class main {
-    private static String FILE = "./FirstPdf.pdf";
+    private static String FILE = "./";
     private static String year = Integer.toString(LocalDate.now().getYear());
     private static String exam = "First Term Examination"+", "+year;
     private static String term = "First Term Examination";
