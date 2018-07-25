@@ -13,7 +13,7 @@ You basically need to initialize a StudentReport object with the necessary infor
 The pdf generation is done using iText library. So you need to add the **itextpdf-5.1.0.jar** file as a library like the sqlite.jar file.
 
 ***
-#What are the members of the class StudentReport?
+## What are the members of the class StudentReport?
 
 1. String FILE : the path to the directory where the reports will be saved.
 2. String roll : student's roll number.
@@ -37,7 +37,7 @@ The pdf generation is done using iText library. So you need to add the **itextpd
 20. String letter_grade : letter grade for the GPA, i.e. A+,A, ect.
 
 ***
-#The logo.jpg file needs to be in there for the pdf to be generated.
+## The logo.jpg file needs to be in there for the pdf to be generated.
 Set the path fo the logo in the StudentReport.java file to your convenience. It is set in the *addTitlePage()* method.
 
 
