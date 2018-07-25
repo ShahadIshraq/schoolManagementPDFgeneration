@@ -5,14 +5,15 @@
 There are two files.
 
 
-**1. main.java
-2. StudentReport.java**
+**1. main.java**
+**2. StudentReport.java**
 
 The StudentReport.java file is the class that you will be using in your code. The main.java file shows how to use it.
 You basically need to initialize a StudentReport object with the necessary informations. Then calling the generateReport() method will generate the pdf.
 The pdf generation is done using iText library. So you need to add the **itextpdf-5.1.0.jar** file as a library like the sqlite.jar file.
 
-##What are the members of the class StudentReport?
+***
+#What are the members of the class StudentReport?
 
 1. String FILE : the path to the directory where the reports will be saved.
 2. String roll : student's roll number.
@@ -36,7 +37,7 @@ The pdf generation is done using iText library. So you need to add the **itextpd
 20. String letter_grade : letter grade for the GPA, i.e. A+,A, ect.
 
 ***
-###The logo.jpg file needs to be in there for the pdf to be generated.
+#The logo.jpg file needs to be in there for the pdf to be generated.
 Set the path fo the logo in the StudentReport.java file to your convenience. It is set in the *addTitlePage()* method.
 
 
