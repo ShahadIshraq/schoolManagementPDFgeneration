@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="iText7-Core-7.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/iText7-Core-7.0.7" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/iText7-Core-7.0.7" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/iText7-Core-7.0.7" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/iText7-Core-7.0.7" recursive="false" type="SOURCES" />
+  </library>
+</component>
